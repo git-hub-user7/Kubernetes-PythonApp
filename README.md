@@ -57,12 +57,12 @@ Kubernetes-PythonApp/
 ### 1. Build Docker Image
 ```bash
 cd frontend
-docker build -t dockerprovider/flask-app:v1 .
+docker build -t dockerprovider/frontend:v1 .
 ```
 ### 2. Push to Container Registry
 
 ```bash
-docker push <DOCKERHUB_USERNAME>/flask-app:v1
+docker push dockerprovider/frontend:v1
 ```
 ### 3. Deploy to Kubernetes
 
@@ -96,6 +96,7 @@ minikube service flask-service
 
 ### 5. Application Deployed and Running in browser: 
 ![Application deployed in browser](Screenshots/application-hosted.png) 
+
 ![Application Running in browser](Screenshots/application-running.png)
 
 ---

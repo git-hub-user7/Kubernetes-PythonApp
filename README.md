@@ -106,4 +106,13 @@ minikube service flask-service
 kubectl delete -f manifests/
 minikube delete
 ```
-*By [Dhwarakesh Srinivasan] • 📧 `dhwarakesh99@gmail.com` • 💼 [LinkedIn Profile]*
+---
+## 👨‍💻 Author  
+
+**Dhwarakesh Srinivasan**  
+
+- 📧 Email: 'dhwarakesh99@gmail.com'  
+
+- 💼 LinkedIn: [www.linkedin.com/in/dhwarakesh-srinivasan-361719292](www.linkedin.com/in/dhwarakesh-srinivasan-361719292)  
+
+- 🐙 GitHub: [git-hub-user7](https://github.com/git-hub-user7)

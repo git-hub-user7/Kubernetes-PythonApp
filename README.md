@@ -86,16 +86,16 @@ minikube service flask-service
 - ![The 'docker build' output](Screenshots/docker-build-output.png)  
 
 ### 2. The 'docker tag and push' output: 
-- ![he 'docker tag and push' output](Screenshots/docker-push-output.png)  
+![he 'docker tag and push' output](Screenshots/docker-push-output.png)  
 
 ### 3. The 'minikube status' output:  
-- ![The 'minikube status' output](Screenshots/minikube-status-output.png)  
+![The 'minikube status' output](Screenshots/minikube-status-output.png)  
 
 ### 4. The Kubernetes pod status:  
-- ![Kubernetes pod status](Screenshots/kubernetes-pod-status.png) 
+![Kubernetes pod status](Screenshots/kubernetes-pod-status.png) 
 
 ### 5. Application Deployed and Running in browser: 
-- ![Application deployed in browser](Screenshots/application-hosted.png) 
+![Application deployed in browser](Screenshots/application-hosted.png) 
 
 - ![Application Running in browser](Screenshots/application-running.png)
 

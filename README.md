@@ -46,8 +46,8 @@ Kubernetes-PythonApp/
 ├── manifests/
 │ ├── deployment.yaml   # Kubernetes deployment
 │  └──  service.yaml    # Kubernetes service
-└── Screenshots/        # Contains Screensnaps of the Project
- 
+├──Screenshots/        # Contains Screensnaps of the Project
+└── README.md
 ```
 
 ---
@@ -106,4 +106,4 @@ minikube service flask-service
 kubectl delete -f manifests/
 minikube delete
 ```
-*By [Your Name] • 📧 [Your Email] • 💼 [LinkedIn Profile]*
+*By [Dhwarakesh Srinivasan] • 📧 `dhwarakesh99@gmail.com` • 💼 [LinkedIn Profile]*

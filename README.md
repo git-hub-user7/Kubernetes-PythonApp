@@ -112,7 +112,7 @@ minikube delete
 
 **Dhwarakesh Srinivasan**  
 
-- 📧 Email: 'dhwarakesh99@gmail.com'  
+- 📧 Email: `dhwarakesh99@gmail.com`  
 
 - 💼 LinkedIn: [www.linkedin.com/in/dhwarakesh-srinivasan-361719292](www.linkedin.com/in/dhwarakesh-srinivasan-361719292)  
 

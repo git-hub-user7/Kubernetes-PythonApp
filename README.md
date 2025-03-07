@@ -38,14 +38,16 @@ This project demonstrates a production-grade deployment of a Flask web applicati
 
 ## 📂 Project Structure
 ```
-flask-kubernetes-deployment/
+Kubernetes-PythonApp/
 ├── frontend/
 │ ├── app.py            # Flask application
 │ ├── Dockerfile        # Container configuration
 │ └── requirements.txt  # Python dependencies
-└── manifests/
-├── deployment.yaml     # Kubernetes deployment
-└── service.yaml        # Kubernetes service
+├── manifests/
+│ ├── deployment.yaml   # Kubernetes deployment
+│  └──  service.yaml    # Kubernetes service
+└── Screenshots/        # Contains Screensnaps of the Project
+ 
 ```
 
 ---
@@ -77,8 +79,24 @@ kubectl get services
 ```bash
 minikube service flask-service
 ```
+---
 
-## Screenshots:
+## 📸 Screenshots  
+### 1. The 'docker build' output:  
+![The 'docker build' output](Screenshots/docker-build-output.png)  
+
+### 2. The 'docker tag and push' output: 
+![he 'docker tag and push' output](Screenshots/docker-push-output.png)  
+
+### 3. The 'minikube status' output:  
+![The 'minikube status' output](Screenshots/minikube-status-output.png)  
+
+### 4. The Kubernetes pod status:  
+![Kubernetes pod status](Screenshots/kubernetes-pod-status.png) 
+
+### 5. Application Deployed and Running in browser: 
+![Application deployed in browser](Screenshots/application-hosted.png) 
+![Application Running in browser](Screenshots/application-running.png)
 
 ---
 
